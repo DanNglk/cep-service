@@ -14,6 +14,7 @@ import com.squareup.okhttp.mockwebserver.RecordedRequest;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.jvalue.ceps.api.EplAdapterApi;
 import org.jvalue.ceps.api.RegistrationApi;
@@ -163,6 +164,7 @@ public final class SimpleSourceTest {
 	}
 
 
+	@Ignore
 	@Test
 	public void testSimpleSource() throws Exception {
 		// give ODS and CEPS some time to settle
